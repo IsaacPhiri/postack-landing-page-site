@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaQuoteLeft, FaStar } from 'react-icons/fa';
+import Image from 'next/image';
 
 interface ReviewCardProps {
   name: string;
@@ -29,11 +30,11 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ name, image }) => {
 
         {/* Image Content */}
         <div className='col-span-2 mx-auto order-1 lg:order-2'>
-          <img
+        <Image
             src={image}
             alt={name}
-            width={250}
-            height={120}
+            width={1000}
+            height={1000}
             className='rounded-full mx-auto'
           />
         </div>
