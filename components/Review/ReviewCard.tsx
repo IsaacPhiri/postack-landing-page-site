@@ -16,7 +16,9 @@ const ReviewCard: React.FC<ReviewCardProps> = ({ name, image }) => {
         {/* Text Content */}
         <div className='col-span-3 order-2 lg:order-1'>
           <p className='mt-8 text-sm sm:text-base md:text-lg font-medium leading-[1.5rem] sm:leading-[1.8rem] md:leading-[2.5rem]'>
-            Lorem ipsum dolor sit amet consectetur adirecusandae. Fugit adi nobis omnis, cupiditate fugit voluptas culpa.
+            Postack services are the best. I have been using their services for a
+            while now and I have never been disappointed. They are always there
+            to help me out whenever I have any issues. I highly recommend them.
           </p>
           <div className='flex items-center mt-6'>
             <FaStar className='text-yellow-600 w-6 h-6' />
