@@ -37,10 +37,10 @@ const Review = () => {
                 infinite responsive={responsive} 
                 showDots
                 >
-                    <ReviewCard name='Jessy Leng' image='/images/C1.png'/>
-                    <ReviewCard name='Ace maloui' image='/images/c2.png'/>
-                    <ReviewCard name='Mambi tekii' image='/images/c3.png'/>
-                    <ReviewCard name='Melly shaku' image='/images/c4.png'/>
+                    <ReviewCard name='Jessy Leng' image='/images/boy.jpeg'/>
+                    <ReviewCard name='Ace maloui' image='/images/gent2.jpeg'/>
+                    <ReviewCard name='Mambi tekii' image='/images/gil2.jpeg'/>
+                    <ReviewCard name='Melly shaku' image='/images/girl.jpeg'/>
                 </Carousel>
             </div>
     </div>
